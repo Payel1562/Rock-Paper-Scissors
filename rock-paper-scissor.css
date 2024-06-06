@@ -1,0 +1,40 @@
+body{
+  background-color:rgb(25, 25, 25);
+  color:white;
+  font-family:Arial;
+  font-size:16px;
+}
+.title{
+  font-size:30px;
+  font-weight: bold;
+}
+img{
+  height:50px;
+
+}
+.move-button{
+  background-color:transparent;
+  border:3px solid white;
+  width:120px;
+  height:120px;
+  border-radius:60px;
+  margin-right:10px;
+  cursor:pointer;
+  margin-bottom:40px;
+}
+.reset-button,.autoplay-button{
+  width:130px;
+  height:35px;
+  font-size:16px;
+  background-color:white;
+  border:none;
+  cursor:pointer;
+}
+.js-moves{
+  margin-top:10px;
+  font-size:25px;
+  font-weight:bold;
+}
+.js-score{
+  margin-top:60px;
+}
